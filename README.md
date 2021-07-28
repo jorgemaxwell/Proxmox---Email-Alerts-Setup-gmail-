@@ -40,7 +40,7 @@
      smtp_tls_session_cache_timeout = 3600s
     ```
 
-**IMPORTANT**: Comment out the existing `relayhost=` line above what we pasted in, since that would cause a duplicate key to be present.
+    **IMPORTANT**: Comment out the existing line containing `relayhost=` above what we pasted in.
 
 7. Reload postfix
     ```bash
