@@ -1,12 +1,12 @@
 
-1. SSH into proxmox node and become root user
+1. SSH into proxmox node and become root user. Run the following commands to download extra software dependencies we'll need.
 
 ```bash
 apt update
 apt install -y libsasl2-modules
 ```
 
-2. Enable 2FA for the gmail account that will be used
+2. Enable 2FA for the gmail account that will be used.
 
 3. Create app password for the account.
   a. Go to [App Passwords](https://security.google.com/settings/security/apppasswords) and generate a new password for Proxmox scope
