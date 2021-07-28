@@ -6,7 +6,7 @@ apt update
 apt install -y libsasl2-modules
 ```
 
-2. Enable 2FA for the gmail account that will be used.
+2. Enable 2FA for the gmail account that will be used by going to [security settings](https://myaccount.google.com/security)
 
 3. Create app password for the account.
   a. Go to [App Passwords](https://security.google.com/settings/security/apppasswords) and generate a new password for Proxmox scope
