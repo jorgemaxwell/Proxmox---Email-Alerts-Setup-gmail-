@@ -9,10 +9,10 @@ apt install -y libsasl2-modules
 2. Enable 2FA for the gmail account that will be used by going to [security settings](https://myaccount.google.com/security)
 
 3. Create app password for the account.
-  1. Go to [App Passwords](https://security.google.com/settings/security/apppasswords) and generate a new password for Proxmox scope
-  2. Select app: Mail
-  3. Select device: Other
-  4. Type in: Proxmox
+    1. Go to [App Passwords](https://security.google.com/settings/security/apppasswords) and generate a new password for Proxmox scope
+    2. Select app: Mail
+    3. Select device: Other
+    4. Type in: Proxmox
   
 4. Write gmail credentials to file. Again, make sure you are root.
 
