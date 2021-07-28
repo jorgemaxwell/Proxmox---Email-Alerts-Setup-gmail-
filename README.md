@@ -31,13 +31,13 @@
 6. Append the folling to the end of the file:
     ```text
     relayhost = smtp.gmail.com:587
-     smtp_use_tls = yes
-     smtp_sasl_auth_enable = yes
-     smtp_sasl_security_options =
-     smtp_sasl_password_maps = hash:/etc/postfix/sasl_passwd
-     smtp_tls_CAfile = /etc/ssl/certs/Entrust_Root_Certification_Authority.pem
-     smtp_tls_session_cache_database = btree:/var/lib/postfix/smtp_tls_session_cache
-     smtp_tls_session_cache_timeout = 3600s
+    smtp_use_tls = yes
+    smtp_sasl_auth_enable = yes
+    smtp_sasl_security_options =
+    smtp_sasl_password_maps = hash:/etc/postfix/sasl_passwd
+    smtp_tls_CAfile = /etc/ssl/certs/Entrust_Root_Certification_Authority.pem
+    smtp_tls_session_cache_database = btree:/var/lib/postfix/smtp_tls_session_cache
+    smtp_tls_session_cache_timeout = 3600s
     ```
 
     **IMPORTANT**: Comment out the existing line containing `relayhost=` above what we pasted in.
