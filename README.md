@@ -1,3 +1,4 @@
+# Proxmox - SMTP Setup (gmail)
 
 1. SSH into proxmox node and become root user. Run the following commands to download extra software dependencies we'll need.
 
