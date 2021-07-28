@@ -1,10 +1,10 @@
 
 1. SSH into proxmox node and become root user. Run the following commands to download extra software dependencies we'll need.
 
-```bash
-apt update
-apt install -y libsasl2-modules
-```
+    ```bash
+    apt update
+    apt install -y libsasl2-modules
+    ```
 
 2. Enable 2FA for the gmail account that will be used by going to [security settings](https://myaccount.google.com/security)
 
