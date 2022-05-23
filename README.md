@@ -15,7 +15,7 @@
     3. Select device: Other
     4. Type in: Proxmox
   
-4. Write gmail credentials to file and hash it for use with `main.cf`. Again, make sure you are root.
+4. Write gmail credentials to file and hash it. Again, make sure you are root.
 
     ```bash
     echo "smtp.gmail.com youremail@gmail.com:yourpassword" > /etc/postfix/sasl_passwd
@@ -46,7 +46,7 @@
     smtp_tls_session_cache_timeout = 3600s
     ```
 
-    **IMPORTANT**: Comment out the existing line containing `relayhost=` above what we pasted in.
+    **IMPORTANT**: Comment out the existing line containing just `relayhost=` since we are using this key in our configuration we just pasted in.
 
 7. Reload postfix
     ```bash
