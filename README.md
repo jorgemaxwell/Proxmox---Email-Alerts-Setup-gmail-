@@ -15,13 +15,18 @@
     3. Select device: Other
     4. Type in: Proxmox
   
-4. Write gmail credentials to file. Again, make sure you are root.
+4. Write gmail credentials to file and hash it for use with `main.cf`. Again, make sure you are root.
 
     ```bash
     echo "smtp.gmail.com youremail@gmail.com:yourpassword" > /etc/postfix/sasl_passwd
-    postmap hash:/etc/postfix/sasl_passwd
+    
+    # chmod u=rw
     chmod 600 /etc/postfix/sasl_passwd
+    
+    # generate /etc/postfix/sasl_passwd.db
+    postmap hash:/etc/postfix/sasl_passwd
     ```
+
 
 5. Open the Postfix configuration file with editor of your choice.
 
