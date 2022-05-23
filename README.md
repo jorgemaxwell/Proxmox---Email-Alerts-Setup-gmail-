@@ -34,7 +34,7 @@
     nano /etc/postfix/main.cf
     ```
 
-6. Append the folling to the end of the file:
+6. Append the following to the end of the file:
     ```text
     relayhost = smtp.gmail.com:587
     smtp_use_tls = yes
