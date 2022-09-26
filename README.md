@@ -4,7 +4,7 @@
 
     ```bash
     apt update
-    apt install -y libsasl2-modules
+    apt install -y libsasl2-modules mailutils
     ```
 
 2. Enable 2FA for the gmail account that will be used by going to [security settings](https://myaccount.google.com/security)
