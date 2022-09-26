@@ -11,9 +11,9 @@
 
 3. Create app password for the account.
     1. Go to [App Passwords](https://security.google.com/settings/security/apppasswords)
-    2. Select app: Mail
-    3. Select device: Other
-    4. Type in: Proxmox
+    2. Select app: `Mail`
+    3. Select device: `Other`
+    4. Type in: `Proxmox` or whatever you want here
   
 4. Write gmail credentials to file and hash it. Again, make sure you are root.
 
