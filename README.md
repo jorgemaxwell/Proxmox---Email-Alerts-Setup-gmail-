@@ -48,7 +48,7 @@
 
     **IMPORTANT**: Comment out the existing line containing just `relayhost=` since we are using this key in our configuration we just pasted in.
     
-    <img width="741" alt="Screen Shot 2022-05-23 at 12 04 15 AM" src="https://user-images.githubusercontent.com/12147036/169765896-ebacf0af-f819-4560-b6ed-3dbc227e6766.png">
+   ![Screen Shot 2022-09-26 at 10 36 42 AM](https://user-images.githubusercontent.com/12147036/192343565-3d4c0235-07f7-4a82-8381-72e654368425.png)
 
 7. Reload postfix
     ```bash
